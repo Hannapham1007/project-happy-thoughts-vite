@@ -5,9 +5,35 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --titleColor: #feb7d2;
+  --backgroundTextForm: #ebebeb;
+  --black: #000000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.app-container{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+}
+
+.text-form-container-app{
+  display: flex;
+}
+.message-container-app{
+  display: block;
+}
+
+@media screen and (max-width: 630px){
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  
 }

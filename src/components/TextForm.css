@@ -1,0 +1,56 @@
+.form-container {
+  display: inline-block;
+  margin: 0 auto;
+  border: solid 1px var(--black);
+  width: 50%;
+  padding: 12px 24px;
+  background-color: var(--backgroundTextForm);
+  box-shadow: 8px 8px var(--black);
+}
+.text-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.text-form-input-area {
+  height: 80px;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.send-happy-btn {
+  width: fit-content;
+  padding: 12px 24px;
+  border-radius: 40px;
+  border: none;
+  background-color: var(--titleColor);
+  cursor: pointer;
+}
+
+.heart-icon {
+  padding: 0 6px;
+}
+.error-message {
+  color:#ff3333;
+  font-size: 14px;
+  font-weight: 700;
+  
+}
+
+.character-count-message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* On 630px screen or less*/
+@media screen and (max-width: 630px) {
+  .form-container {
+    width: 80%;
+  }
+  .send-button-container{
+    display: flex;
+    justify-content: center;
+}
+}

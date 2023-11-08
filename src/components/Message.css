@@ -1,0 +1,27 @@
+.message-container {
+  margin: 24px auto;
+  border: solid 1px var(--black);
+  padding: 12px 24px;
+  width: 50%;
+  box-shadow: 8px 8px var(--black);
+  word-break: break-word;
+}
+.like-info {
+  display: inline-flex;
+  color: black;
+  align-items: center;
+}
+.number-of-likes {
+  margin-left: 8px;
+}
+.time-info {
+  color: grey;
+
+  float: right;
+}
+/* On 630px screen or less*/
+@media screen and (max-width: 630px) {
+  .message-container {
+    width: 80%;
+  }
+}
